@@ -1,0 +1,167 @@
+// CSC 365
+// Lab 1-a test suite
+//
+// TC-1
+// Tests Requirements R2, R13, R3, R4
+// short form command name, existing student
+// expected output: HAVIR,BOBBIE,2,108,HAMER,GAVIN
+S: HAVIR
+//
+// TC-2
+// Tests Requirements R2, R13, R3, R4
+// long form command name, non-existing student
+// expected output: <empty line>
+Student: SLATER
+//
+// TC-3
+// Tests Requirments R2, R3, R12
+// short form quit command
+// expected output: program terminates
+Q
+//
+// TC-4
+// Tests Requirments R2, R3, R12
+// long form quit command
+// expected output: program terminates
+Quit
+//
+// TC-5
+// Tests Requirements R2, R13, R3, R5
+// short form command name, existing student
+// expected output: HAVIR,BOBBIE,0
+S: HAVIR B
+//
+// TC-6
+// Tests Requirements R2, R13, R3, R5
+// long form command name, non-existing student
+// expected output: <empty line>
+Student: SLATER Bus
+//
+// TC-7
+// Tests Requirements R2, R13, R3, R6
+// long form command name, existing teacher
+// expected output: CORKER, CARTER
+//                  IMMERMAN, DEVIN
+//                  RAPOSE, ALONZO
+//                  OGAS, ERVIN
+//                  MASSART, ELDON
+//                  BEX, TAMESHA
+Teacher: HANTZ
+//
+// TC-8
+// Tests Requirements R2, R13, R3, R6
+// short form command name, non-existing teacher
+// expected output: <empty line>
+T: SLATER
+//
+// TC-9
+// Tests Requirements R2, R13, R3, R7
+// long form command name, valid grade 0 - 6
+// expected output: SAELEE, DANILO
+//                  GARTH, JOHN
+Grade: 1
+//
+// TC-10
+// Tests Requirements R2, R13, R3, R7
+// short form command name, invalid grade outside 0 - 6
+// expected output: <empty line>
+G: 10
+//
+// TC-10
+// Tests Requirements R2, R13, R3, R7
+// short form command name, invalid grade outside 0 - 6
+// expected output: <empty line>
+G: 10
+//
+// TC-11
+// Tests Requirements R2, R13, R3, R8
+// short form command name, valid bus
+// expected output: COOKUS, XUAN, 3, 107
+//                  ELHADDAD, SHANTE, 3, 107
+//                  IMMERMAN, DEVIN, 4, 105
+//                  OBREIN, STAN, 6, 111
+//                  CORONADO, DIMPLE, 6, 102
+//                  SARAO, DIEDRA, 2, 108
+//                  EARLY, TORY, 3, 107
+//                  KEMERER, ROSETTA, 6, 102
+B: 52
+//
+// TC-12
+// Tests Requirements R2, R13, R3, R8
+// long form command name, invalid bus
+// expected output: <empty line>
+B: 69
+//
+// TC-13
+// Tests Requirements R2, R13, R3, R9
+// short form command name, Low
+// expected output: CIGANEK, MANIE, 2.79, FAFARD, ROCIO, 53
+G: 3 L
+//
+// TC-14
+// Tests Requirements R2, R13, R3, R9
+// Long form command name, High
+// expected output: CORKER, CARTER, 3.12, HANTZ, JED, 53
+//                  RAPOSE, ALONZO, 3.12, HANTZ, JED, 51
+Grade: 4 High
+//
+/ TC-15
+// Tests Requirements R2, R13, R3, R10
+// short form command name, valid grade 0 - 6
+// expected output: 1, 3.00
+A: 1
+//
+/ TC-16
+// Tests Requirements R2, R13, R3, R10
+// long form command name, invalid grade not in 0 - 6
+// expected output: <empty line>
+Average: 9
+//
+// TC-17
+// Tests Requirements R2, R13, R3, R11
+// short form command name
+// expected output: 0, 0
+//                  1, 2
+//                  2, 13
+//                  3, 9
+//                  4, 15
+//                  5, 0
+//                  6, 21
+I
+//
+// TC-18
+// Tests Requirements R2, R13, R3, R11
+// long form command name
+// expected output: 0, 0
+//                  1, 2
+//                  2, 13
+//                  3, 9
+//                  4, 15
+//                  5, 0
+//                  6, 21
+Info
+//
+// TC-19
+// Tests Requirements E1, R13
+// File isn't in same directory or doesn't exist on program start
+// expected output: File not found <followed by program termination>
+<No input>
+//
+// TC-20
+// Tests Requirements E1
+// User inputs improper input
+// expected output: Improper input, try again... <followed by prompt>
+Bad
+//
+// TC-21
+// Tests Requirements R1
+// User starts program on command line using "python3 schoolsearch.py"
+// expected output: <prompt>
+<No input>
+
+
+
+
+
+
+

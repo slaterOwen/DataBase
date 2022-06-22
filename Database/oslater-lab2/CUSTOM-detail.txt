@@ -1,0 +1,18 @@
+a) The source of the data came from this github link: 
+   https://github.com/awesomedata/awesome-public-datasets
+
+b) For the first table I made, I decided to show the realtionship 
+   between "who" was actually on board the titanic, focusing on the 
+   attributes relating to information about their identitiy. For the 
+   second table, I showed the realtionship between what prices people were
+   paying, including their class and fare price. For the last table, I showed
+   the relationship between passengers who survived and died, focusing on
+   their class, gender, and age. 
+
+c) I didn't reall run into any mapping challenges. The only semi-challenging
+   part was trying to break up the table into seperate tables and generating
+   the insert queries I was looking for.
+
+d) 1) I could request all passengers that were children from my first relation
+   2) I could request all passengers that were 1st class from my second relation
+   3) I could request all passengers that were male and survived from my third relation

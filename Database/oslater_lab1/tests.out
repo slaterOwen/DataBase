@@ -1,0 +1,101 @@
+//TC-1
+HAVIR, BOBBIE, 2, 108, HAMER, GAVIN
+
+//TC-2
+
+
+//TC-3
+//<program terminates>
+
+//TC-4
+//<program terminates>
+
+//TC-5
+HAVIR, BOBBIE, 0
+
+//TC-6
+
+
+//TC-7
+CORKER, CARTER
+IMMERMAN, DEVIN
+RAPOSE, ALONZO
+OGAS, ERVIN
+MASSART, ELDON
+BEX, TAMESHA
+
+//TC-8
+
+
+//TC-9
+SAELEE, DANILO
+GARTH, JOHN
+
+//TC-10
+
+
+//TC-11
+COOKUS, XUAN, 3, 107
+ELHADDAD, SHANTE, 3, 107
+IMMERMAN, DEVIN, 4, 105
+OBREIN, STAN, 6, 111
+CORONADO, DIMPLE, 6, 102
+SARAO, DIEDRA, 2, 108
+EARLY, TORY, 3, 107
+KEMERER, ROSETTA, 6, 102
+
+//TC-12
+
+//TC-13
+CIGANEK, MANIE, 2.79, FAFARD, ROCIO, 53
+
+//TC-14
+CORKER, CARTER, 3.12, HANTZ, JED, 53
+RAPOSE, ALONZO, 3.12, HANTZ, JED, 51
+
+//TC-15
+1, 3.00
+
+//TC-16
+
+//TC-17
+0, 0
+1, 2
+2, 13
+3, 9
+4, 15
+5, 0
+6, 21
+
+//TC-18
+0, 0
+1, 2
+2, 13
+3, 9
+4, 15
+5, 0
+6, 21
+
+//TC-19
+"File not found" //<program terminates>
+
+//TC-20
+Improper input, try again...
+Please enter a choice following the format below:
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname>
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]]
+A[verage]: <number>
+I[nfo]
+Q[uit]
+
+//TC-21
+Please enter a choice following the format below:
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname>
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]]
+A[verage]: <number>
+I[nfo]
+Q[uit]
